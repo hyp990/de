@@ -1,0 +1,5 @@
+services:
+  webapp:
+    image: example
+    env_file: 
+      - ../commons/container.env
